@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+#header{
+	display:block;
+	width: 115px;
+	height: 44px;
+	border-radius: 8px;
+	background-color: #6ece0f;
+	float: right;
+	font-weight: 600;
+	line-height: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 47px;
+	margin-right: 175px;
+	z-index: 1;
+}
+
+.button-head{
+	border: 0;
+	width: 220px;
+	height: 70px;
+	background-color: #5fb709;
+	border-radius: 8px;
+
+	text-decoration: none;
+	line-height: 20px;
+	text-align: center;
+	color: #FFFFFF;
+}
+#food{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 0;
+	/* max-width: 75%;
+	display: block;
+	margin-top: -10;
+	margin-left: -9;
+	display: block;
+	float: top; */
+}
+
+
+.green{
+	color: #6ece0f;
+}
+
+.button-main{
+	border: 0;
+	width: 200px;
+	height: 70px;
+	background-color: #5fb709;
+	border-radius: 8px;
+}
+
+.button-text{
+	width: 93px;
+	height: 17px;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 68px;
+}
